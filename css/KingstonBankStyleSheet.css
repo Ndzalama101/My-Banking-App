@@ -1,0 +1,71 @@
+﻿body {
+}
+
+#loginBackground {
+    background-image: url('../img/—Pngtree—abstract green background with wavy_2640998.jpg');
+    background-size: cover;
+}
+
+#RegistrationSection {
+    background-image: url('../img/—Pngtree—abstract green background with wavy_2640998.jpg');
+    background-size: cover;
+}
+
+#UserPage {
+    background-image: url('../img/Fresh Natural Cosmetics Psd Layered Main Picture Background, Fresh Nature, Green Leaves, Stone Background Background Image And Wallpaper for Free Download.jpeg');
+    background-size: cover;
+
+}
+
+
+
+
+#hero {
+    background-image: url('../img/—pngtree—abstract green background with wavy_2640998.jpg');
+    background-size: cover;
+}
+
+i {
+    position: center;
+    font-size: larger;
+}
+
+#rates {
+    background-image: url('../img/pricing-img.jpeg');
+    background-size: cover;
+}
+
+a :hover {
+    color: forestgreen;
+}
+
+a:active {
+    color: forestgreen !important;
+}
+
+#Button2 {
+    margin: 3px;
+}
+
+#usernav {
+    display: flex;
+}
+
+#welcom {
+    color: green;
+}
+
+#home {
+    background-image: url('../img/fresh natural cosmetics psd layered main picture background, fresh nature, green leaves, stone background background image and wallpaper for free download.jpeg');
+    background-size: cover;
+}
+
+#ProductsNServices {
+    background-image: url('../img/Abstract Dólar Ou Dinheiro De Gradiente De Cor Ilustração Vetorial Modelo para download gratuito no Pngtree.jpeg');
+    background-size: cover;
+}
+
+#products-and-services-2 {
+    background-image: url('../img/Abstract Dólar Ou Dinheiro De Gradiente De Cor Ilustração Vetorial Modelo para download gratuito no Pngtree.jpeg');
+    background-size: cover;
+}

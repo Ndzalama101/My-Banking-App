@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="KingstonBankl.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <%--Bootsrap CSS--%>
+    <link href="Bootstrap/CSS/bootstrap.min.css" rel="stylesheet" />
+    <%--DataTables CSS--%>
+    <link href="DataTables/CSS/dataTables.dataTables.min.css" rel="stylesheet" />
+    <%--FontAwesome CSS--%>
+    <link href="FontAwesome/fontawesome-free-6.7.2-web/css/all.css" rel="stylesheet" />
+
+    <link href="css/KingstonBankStyleSheet.css" rel="stylesheet" />
+
+     <%--Bootsrap jquery--%>
+    <script src="Bootstrap/JavaScript/bootstrap.bundle.min.js"></script>
+     <%--Bootsrap popper js--%>
+    <script src="Bootstrap/JavaScript/popper.min.js"></script>
+     <%--Bootsrap js--%>
+    <script src="Bootstrap/JavaScript/bootstrap.min.js"></script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                <img src="img/Premium%20Vector%20_%20Cash%20icon%20design%20illustration%20vector%20template.jpeg" width="60" height="60"/>
+                Kingston Bank
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggle-icon">p</span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-end">
+
+        <li class="nav-item">
+          <a id="homeLink" runat="server" class="nav-link active" aria-current="page" href="index.aspx">Home</a>
+        </li>
+          <li class="nav-item">
+          <a id="SignUpLink" runat="server" class="nav-link" href="RegistrationPage.aspx">Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a id="LoginLink" runat="server" class="nav-link" href="LoginPage.aspx">Login</a>
+        </li>
+        <li Id="logoutButton" class="nav-item">
+          <a  id="LogoutLink" runat="server" class="nav-link" href="index.aspx">LogOut</a>
+        </li>
+           
+      </ul>
+      
+    </div>
+
+            </nav>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+
+             <footer id="footer" class="footer">
+            <div class="container footer-top">
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-6 footer-about">
+                        <a href="index.html" class="logo d-flex align-items-center">
+                            <span class="sitename">KingstonBank</span>
+                        </a>
+                        <div class="footer-contact pt-3">
+                            <p>69 Kingsway Ave, Auckland Park</p>
+                            <p>Johannesburg, 2092</p>
+                            <p class="mt-3"><strong>Phone:</strong> <span>+27796982034</span></p>
+                            <p><strong>Email:</strong> <span>info@bangbank.com</span></p>
+                        </div>
+                        <div class="social-links d-flex mt-4">
+                            <a href="#"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container copyright text-center mt-4">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">KingstonBank</strong> <span>All Rights Reserved</span></p>
+                <div class="credits">
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+            </div>
+        </footer>
+
+
+        </div>
+    </form>
+</body>
+</html>
